@@ -28,12 +28,12 @@ struct WelcomePageView: View {
 extension WelcomePageView{
     var informativeUI: some View{
         VStack(spacing: 15){
-            Image("Traingles")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 150)
-                .offset(y:30)
-                .hueRotation(Angle.degrees(-10))
+//            Image("Traingles")
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+//                .frame(width: 150)
+//                .offset(y:30)
+//                .hueRotation(Angle.degrees(-10))
             Text("Find The Perfect \n Hiking Trail")
                 .multilineTextAlignment(.center)
                 .font(.title)
